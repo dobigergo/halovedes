@@ -78,7 +78,8 @@ while(strcmp(buffer,"Új kör kezdődik")==0){
 
 
    	printf("Csere számok elküldése\n");
-
+	
+	ertek=1;
 	cnt=0;
 	while(ertek!=0 && cnt !=3){
 	scanf("%d",&ertek);
